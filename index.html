@@ -24,36 +24,31 @@
         <div>
           <h3>A maior Black Friday de produtos Apple da internet!</h3>
           <p>
-            Na loja LiviaImports você verá descontos de até 50% em iphones,
-            macbook, acessórios e muito mais!
+            Na loja LiviaImports você verá descontos de até 50% em Iphones,
+            Macbooks, acessórios e muito mais!
           </p>
           <p>
-            Quer receber em primeira mão as promoções? Cadastre seu E-mail e não
+            Quer receber em primeira mão as promoções? Cadastre seu e-mail e não
             perca essa oportunidade.
           </p>
         </div>
 
         <div>
           <form class="form">
-            <input type="text" name="name" placeholder="Nome" required />
-            <input type="email" name="email" placeholder="E-mail" required />
-            <input type="text" name="phone" placeholder="Telefone" required />
-            <label> <b>Tipos de produtos com mais interesse</b></label>
-            <select name="produtos" required>
-              <option>Todos</option>
-              <option>Iphones</option>
-              <option>Macbooks</option>
-              <option>Carregadores</option>
-              <option>Fones de ouvido</option>
-            </select>
-            <label class="aceite"
-              ><input type="checkbox" name="Aceite" />
-              <b>Aceito receber comunicações</b>
-            </label>
-            <button type="button" name="Enviar">ENVIAR</button>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" />
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" />
+
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="number" />
+
+            <button id="botaoEnviar">Enviar</button>
           </form>
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
